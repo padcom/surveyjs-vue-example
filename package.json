@@ -1,0 +1,36 @@
+{
+  "name": "survey",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "poi",
+    "build": "poi build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@poi/plugin-eslint": "^10.0.2",
+    "@poi/plugin-typescript": "^10.2.0",
+    "eslint": "^4.19.1",
+    "eslint-config-aplaline": "git+https://github.com/aplaline/eslint-config-aplaline#1.5.3",
+    "node-sass": "^4.9.0",
+    "poi": "^10.2.7",
+    "sass-loader": "^7.0.3",
+    "survey-vue": "^1.0.25",
+    "ts-loader": "^4.4.0",
+    "tslint": "^5.10.0",
+    "tslint-config-aplaline": "git+https://github.com/aplaline/tslint-config-aplaline#1.0.0",
+    "tslint-loader": "^3.6.0",
+    "typescript": "^2.9.1",
+    "vue": "^2.5.16",
+    "vue-class-component": "^6.2.0",
+    "vue-property-decorator": "^6.1.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint-config-aplaline"
+    ]
+  },
+  "dependencies": {
+    "tslint-eslint-rules": "^5.3.1"
+  }
+}

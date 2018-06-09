@@ -1,0 +1,13 @@
+{
+  "editor.lineNumbers": "on",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ],
+  "tslint.enable": true,
+  "beautify.tabSize": 2,
+  "beautify.options": {
+    "indent_size": 2
+  }
+}
